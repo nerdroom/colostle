@@ -10,7 +10,7 @@ export class ColostleActorSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       classes: ["colostle", "sheet", "actor"],
-      template: "systems/colostle/templates/actor/actor-sheet.html",
+      template: "systems/colostle/templates/actor/actor-character-sheet.html",
       width: 600,
       height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
